@@ -9,6 +9,7 @@ source:
   sha256: c3a828c1121c686814c2cfe281a7a3be196a22b9754306bf61c3fd65c31f1fcd
   patches:
     - fix-win-build.patch  # [win]
+    - fix-openjpeg-lib.patch  # [win]
 
 build:
   number: 1
