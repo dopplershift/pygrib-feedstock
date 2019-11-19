@@ -11,7 +11,7 @@ source:
     - fix-win-build.patch  # [win]
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win and vc<14]
 
 requirements:
@@ -22,7 +22,8 @@ requirements:
     - pip
     - eccodes
     - jasper  # [not win]
-    - libpng  # [not win]
+    - openjpeg  # [win]
+    - libpng
     - pyproj
     - zlib
     - numpy
@@ -31,7 +32,8 @@ requirements:
     - setuptools
     - eccodes
     - jasper  # [not win]
-    - libpng  # [not win]
+    - openjpeg  # [win]
+    - libpng
     - numpy
     - pyproj
     - zlib
